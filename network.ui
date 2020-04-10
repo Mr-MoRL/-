@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>network</class>
+ <widget class="QWidget" name="network">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>371</width>
+     <height>585</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{background-color: rgb(255, 255, 255)}</string>
+   </property>
+   <widget class="QLabel" name="typeText">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>20</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>类型</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="addrType">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>112</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>地址</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="portType">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>207</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>端口</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="userType">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>300</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>用户名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passType">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>395</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>500</y>
+      <width>93</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {border: 1px solid rgba(0,0,0,0); background-color: rgb(81, 163, 245); color: rgb(255, 255, 255); border-radius:5px; padding:2px 4px;} QPushButton:hover { background-color: rgb(85, 170, 255); color: rgb(255, 255, 255); }</string>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>500</y>
+      <width>93</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {border: 1px solid rgba(0,0,0,0); background-color: rgb(244, 244, 244); color: rgb(0, 0, 0); border-radius:5px; padding:2px 4px;}</string>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="addr">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>145</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border:1px groove rgb(227, 227, 227);border-radius:5px; padding:2px 10px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="port">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>240</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border:1px groove rgb(227, 227, 227);border-radius:5px; padding:2px 10px;</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhDigitsOnly</set>
+    </property>
+    <property name="maxLength">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usernum">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>332</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border:1px groove rgb(227, 227, 227);border-radius:5px; padding:2px 10px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>430</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border:1px groove rgb(227, 227, 227);border-radius:5px; padding:2px 10px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="test">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>513</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {border: 1px solid rgba(0,0,0,0); color: rgb(85, 85, 255)}</string>
+    </property>
+    <property name="text">
+     <string>测试</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="browser">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>20</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img/imgsource.qrc">:/warningNetwork.PNG</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="type">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>50</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Pi Std</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {text-align:left; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border:1px groove rgb(227, 227, 227); border-radius:5px; padding: 2px 10px;} QPushButton::menu-indicator {subcontrol-position: right center; subcontrol-origin: padding}</string>
+    </property>
+    <property name="text">
+     <string>不使用代理</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="testing">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>20</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img/imgsource.qrc">:/testing.PNG</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="failconnect">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>20</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img/imgsource.qrc">:/failConnect.PNG</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="invalidInput">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>20</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img/imgsource.qrc">:/invalidInput.PNG</pixmap>
+    </property>
+   </widget>
+   <zorder>typeText</zorder>
+   <zorder>addrType</zorder>
+   <zorder>portType</zorder>
+   <zorder>userType</zorder>
+   <zorder>passType</zorder>
+   <zorder>login</zorder>
+   <zorder>cancel</zorder>
+   <zorder>addr</zorder>
+   <zorder>port</zorder>
+   <zorder>usernum</zorder>
+   <zorder>password</zorder>
+   <zorder>test</zorder>
+   <zorder>type</zorder>
+   <zorder>browser</zorder>
+   <zorder>testing</zorder>
+   <zorder>failconnect</zorder>
+   <zorder>invalidInput</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img/imgsource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>forgetpass</class>
+ <widget class="QWidget" name="forgetpass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="ForgetPass" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>371</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{background-color: rgb(255, 255, 255)}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>90</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe 黑体 Std R</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>忘记密码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ddnum">
+    <property name="geometry">
+     <rect>
+      <x>134</x>
+      <y>172</y>
+      <width>205</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{border-with: 0; border-style: outset}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>请输入手机号</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>182</y>
+      <width>20</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_1">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>257</y>
+      <width>305</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(250, 250, 250)</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>212</y>
+      <width>305</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ddpass">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>222</y>
+      <width>305</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{border-with: 0; border-style: outset}</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>请输入验证码</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sendVeriCode">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>230</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: rgb(245, 245, 245); color: rgb(159, 159, 159); border:1px groove rgb(227, 227, 227);border-radius:5px; padding:2px 4px;}</string>
+    </property>
+    <property name="text">
+     <string>发送验证码</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>310</y>
+      <width>305</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Myungjo Std M</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: rgb(245, 245, 245); color: rgb(159, 159, 159); border:1px groove rgb(227, 227, 227);border-radius:5px; padding:2px 4px;}</string>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="areanum_2">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>172</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {text-align:left; border: 1px solid rgba(0,0,0,0); } QPushButton::menu-indicator {subcontrol-position: right center; subcontrol-origin: padding}</string>
+    </property>
+    <property name="text">
+     <string>+86        </string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="warning">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>33</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img/imgsource.qrc">:/invalidePhone.PNG</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="warning_1">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>33</y>
+      <width>298</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img/imgsource.qrc">:/wrongVerifycode.PNG</pixmap>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>ddnum</zorder>
+   <zorder>line_1</zorder>
+   <zorder>line_2</zorder>
+   <zorder>ddpass</zorder>
+   <zorder>sendVeriCode</zorder>
+   <zorder>login</zorder>
+   <zorder>areanum_2</zorder>
+   <zorder>line_3</zorder>
+   <zorder>warning</zorder>
+   <zorder>warning_1</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img/imgsource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

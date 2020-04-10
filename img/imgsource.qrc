@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Alilogo.PNG</file>
+        <file>ddlogo.PNG</file>
+        <file>icon.ico</file>
+        <file>QRcode.PNG</file>
+        <file>warningNetwork.PNG</file>
+        <file>warningNumPass.PNG</file>
+        <file>testing.PNG</file>
+        <file>failConnect.PNG</file>
+        <file>invalidInput.PNG</file>
+        <file>invalidePhone.PNG</file>
+        <file>agreeProtocol.PNG</file>
+        <file>wrongAlinum.PNG</file>
+        <file>wrongVerifycode.PNG</file>
+    </qresource>
+</RCC>
